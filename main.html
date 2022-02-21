@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.bootcss.com/normalize/8.0.0/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/headerCss.css" type="text/css">
+    <link rel="stylesheet" href="css/mainPage.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div id="view">
+            <div id="logo">
+                <img class="logo-img fl" src="images/logo.png" alt="logo">
+                <h2 class="logo-title fl pointer">猿计划</h2>
+            </div>
+            <nav class="nav fl">
+                <ul class="nav-menu fr">
+                    <li class="nav-menu-items pointer" id="nav-personInfo">
+                        <a href="javascript:void(0)">个人中心</a>
+                    </li>
+                    <li class="nav-menu-items pointer">
+                        <a href="javascript:void(0)">首页</a>
+                    </li>
+                    <li class="nav-menu-items pointer">
+                        <a href="javascript:void(0)">知识体系</a>
+                    </li>
+                    <li class="nav-menu-items pointer">
+                        <a href="javascript:void(0)">活动中心</a>
+                    </li>
+                    <li class="nav-menu-items pointer">
+                        <a href="javascript:void(0)">文章</a>
+                    </li>
+                    </li>
+                    <li class="nav-menu-items pointer" id="nav-write">
+                        <a href="javascript:void(0)">写文章</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="fl pointer" id="nav-photo">
+                <div id="photo-nav-list">
+                    <ul>
+                        <li id="photo-nav-list-personInfo">个人中心</li>
+                        <li id="photo-nav-list-changePwd">修改密码</li>
+                        <li id="photo-nav-list-myCollection">我的收藏</li>
+                        <li id="photo-nav-list-myNote">我的帖子</li>
+                        <li id='photo-nav-list-myTask'>我的任务</li>
+                        <li id="photo-nav-list-exit">退出</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="headerPlaceHolder"></div>
+    </header>
+    <section>
+        <div id="wrap">
+            <div id="img-box">
+                <ul>
+                    <li class="pointer"><img src="images/1.jpg" alt=""></li>
+                    <li class="pointer"><img src="images/2.jpg" alt=""></li>
+                    <li class="pointer"><img src="images/3.jpg" alt=""></li>
+                    <li class="pointer"><img src="images/4.jpg" alt=""></li>
+                    <li class="pointer"><img src="images/5.jpg" alt=""></li>
+                </ul>
+            </div>
+            
+            <div id="btn">
+                <div id="lbtn"><</div>
+                <div id="rbtn">></div>
+            </div>
+        </div>
+        <div class="mainHotSectionPage cur" id="mainHotSectionPage">
+            <div class="hot-nav">
+                <a href="javascript:void(0)" style="color:red;" class="main-hot-btn">热门文章</a>
+                <a href="javascript:void(0)" class="main-html-btn">html</a>
+                <a href="javascript:void(0)" class="main-css-btn">css</a>
+            </div>
+            <div class="hot-post">
+
+            </div>
+        </div>
+        <div class="mainHtmlPage hide" id="mainHtmlPage">
+            <div class="hot-nav">
+                <a href="javascript:void(0)" class="main-hot-btn">热门文章</a>
+                <a href="javascript:void(0)" style="color:red;" class="main-html-btn">html</a>
+                <a href="javascript:void(0)" class="main-css-btn">css</a>
+            </div>
+        </div>
+        <div class="mainCssPage hide" id="mainCssPage">
+            <div class="hot-nav">
+                <a href="javascript:void(0)" class="main-hot-btn">热门文章</a>
+                <a href="javascript:void(0)" class="main-html-btn">html</a>
+                <a href="javascript:void(0)" style="color:red;" class="main-css-btn">css</a>
+            </div>
+        </div>
+    </section>
+    <script src="js/myTools.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
